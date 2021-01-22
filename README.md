@@ -1,12 +1,12 @@
 # AsciiWars
-Simple Star Wars Asciimation Player for the ESP8266 + TFT Display
+**Simple Star Wars Asciimation Player for the ESP8266 + TFT Display**
 
 ![Breadboard](https://github.com/gotohellmann/AsciiWars/blob/main/images/image1.jpg) ![Projector](https://github.com/gotohellmann/AsciiWars/blob/main/images/image2.jpg) 
 
 
-Code by        F. Hellmann  <www.gotohellmann.com>  
-Animation by   S. Jansen    <www.asciimation.co.nz>  
-Font by        S. Weber     <www.blogfonts.com/picopixel.font>  
+Code by        **F. Hellmann**  <www.gotohellmann.com>  
+Animation by   **S. Jansen**    <www.asciimation.co.nz>  
+Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>  
  
  This sketch is playing back Simon Jansen's brilliant ASCII animation of 
  Star Wars on a tiny 2.2" LCD Screen. 
@@ -16,13 +16,13 @@ Font by        S. Weber     <www.blogfonts.com/picopixel.font>
  - _AsciiWars_v04_patched_  needs a patched TFT_eSPI library to reduce flicker, see below
  
  Platform: 
-  Arduino on WEMOS D1 mini Module (4MB Flash)
-  with an ILI9341 240x320 Pixel RGB TFT LCD Display
+  Arduino on **WEMOS D1 mini** Module (4MB Flash)
+  with an **ILI9341** 240x320 Pixel RGB TFT LCD Display
  
  Usage:     
  
  - Connect LCD to Wemos D1 mini
-   -> see connection infos in .ino file
+   -> see connection infos in asciiwars...ino file
  - Start Arduino IDE
  - check you have the ESP8266FS tool under Tools
   -> if not: https://github.com/esp8266/arduino-esp8266fs-plugin
