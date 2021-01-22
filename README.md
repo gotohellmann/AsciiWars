@@ -35,7 +35,7 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
     
  - check that you have the necessary libs installed:
    - TFT_eSPI
-      -> Don't forget to edit Library User_Settings.h
+      -> Don't forget to edit Library User_Settings.h to enable the ILI9341 display
                  
  - Uncomment SPIFFS Formatting Block below
  - Arduino Board Select: Wemos D1 mini
