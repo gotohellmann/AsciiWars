@@ -15,7 +15,7 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
  
  - _AsciiWars_v04_  works with the standard TFT_eSPI library, but flickers a bit
  - _AsciiWars_v04_patched_  needs a patched TFT_eSPI library to reduce flicker, see [below](#flickering)
- - Start Arduino IDE
+ 
  
  ### Platform & Hardware needed:
  
@@ -23,6 +23,7 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
  - a **WEMOS D1 mini** Module (4MB Flash)
  - an **ILI9341** 240x320 Pixel RGB TFT LCD Display
  - and a few wires to connect everything up
+ 
  
  ### Usage:     
  
@@ -49,6 +50,7 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
       
  **-> Have fun.**
  
+ 
  ### Connections:
  
  Connect the following Wemos D1 Mini pins to the ILI9341 LCD:
@@ -64,6 +66,7 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
  D5        |  SCK 
  +3V3 VCC  |  LED
  D6        |  SDO (MISO)
+
 
  ### Flickering:
  
