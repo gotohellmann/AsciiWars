@@ -70,7 +70,7 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
  Unfortunatly, clearing/redrawing the screen takes up a lot of time and can lead to visible flicker.
  To reduce this effect we can apply a patch that only clears the next character to be drawn just in time.
 
- - To reduce flicker -> patch TFT_eSPI Library (Line 2780):  --> This patched TFT_eSPI Lib is available on my github: [TFT_eSPI_patched.zip](https://github.com/gotohellmann/AsciiWars/blob/main/TFT_eSPI_patched.zip)
+ - To reduce flicker -> patch TFT_eSPI Library (Line 2780):   --: This patched TFT_eSPI Lib is available on here: [TFT_eSPI_patched.zip](https://github.com/gotohellmann/AsciiWars/blob/main/TFT_eSPI_patched.zip)
             
             ...   if(size > 1) {
                     xo16 = xo;
