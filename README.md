@@ -8,8 +8,8 @@ Code by        **F. Hellmann**  <www.gotohellmann.com>
 Animation by   **S. Jansen**    <www.asciimation.co.nz>  
 Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>  
  
- This sketch is playing back Simon Jansen's brilliant ASCII animation of 
- Star Wars on a tiny 2.2" LCD Screen. 
+ This sketch is playing back Simon Jansen's brilliant ASCII animation of Star Wars on a tiny 2.2" LCD Screen. 
+ The animation is stored on the SPIFFS mini flash filesytem of the ESP8266 and runs standalone without WiFi.
  
  If you like it please leave a :star: !
 
@@ -47,7 +47,7 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
  - Comment out the SPIFFS Formatting Block in the Sketch
  
  - Close Serial Monitor 
- - Upload Data with Tools -> ESP8266FS tool
+ - Upload Data with Tools -> ESP8266FS tool. This uploads the animation into the SPIFFs.
  - Upload Sketch _without_ active SPIFFS Formatting Block :smirk:
       
  **-> Have fun.**
