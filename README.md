@@ -5,7 +5,7 @@ Code by        F. Hellmann  <www.gotohellmann.com>
 Animation by   S. Jansen    <www.asciimation.co.nz>  
 Font by        S. Weber     <www.blogfonts.com/picopixel.font>  
  
- This sketch is playing back an ASCII animation of 
+ This sketch is playing back Simon Jansen's brilliant ASCII animation of 
  Star Wars on a tiny 2.2" LCD Screen. 
 
  Versions:
@@ -13,9 +13,8 @@ Font by        S. Weber     <www.blogfonts.com/picopixel.font>
  - _AsciiWars_v04_patched_  needs a patched TFT_eSPI library to reduce flicker, see below
  
  Platform: 
- Arduino on WEMOS D1 mini Module (4MB Flash)
- with an ILI9341 240x320 Pixel RGB TFT LCD Display
- 
+  Arduino on WEMOS D1 mini Module (4MB Flash)
+  with an ILI9341 240x320 Pixel RGB TFT LCD Display
  
  Usage:     
  
