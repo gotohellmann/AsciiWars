@@ -21,7 +21,7 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
  - Arduino on **WEMOS D1 mini** Module (4MB Flash)
  - with an **ILI9341** 240x320 Pixel RGB TFT LCD Display
  
- **Usage:**     
+ ### Usage:     
  
  - Connect LCD to Wemos D1 mini
    -> see connection infos in asciiwars.ino file or below
@@ -46,9 +46,9 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
       
  **-> Have fun.**
  
- **Connections:**
+ ### Connections:
  
- Wemos D1 Mini to the ILI9341 LCD:
+ Connect the following Wemos D1 Mini pins to the ILI9341 LCD:
 
  Wemos D1  |  LCD
 -----------|------------
@@ -62,7 +62,7 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
  +3V3 VCC  |  LED
  D6        |  SDO (MISO)
 
- **Performance / Flickering:**
+ ### Performance / Flickering:
  
  Unfortunatly, clearing/redrawing the screen takes up a lot of time and can lead to visible flicker.
  To reduce this effect we can apply a patch that only clears the next character to be drawn just in time.
@@ -86,5 +86,6 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
             ...
 
   - A patched TFT_eSPI Lib is available on my github: 
+  
   https://github.com/gotohellmann/AsciiWars/blob/main/TFT_eSPI_patched.zip
               
