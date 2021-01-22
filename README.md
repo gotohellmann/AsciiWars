@@ -1,14 +1,12 @@
 # AsciiWars
 Simple Star Wars Asciimation Player for the ESP8266 + TFT Display
 
-Code by        F. Hellmann  <www.gotohellmann.com>
-Animation by   S. Jansen    <www.asciimation.co.nz>
-Font by        S. Weber     <https://blogfonts.com/picopixel.font>
+Code by        F. Hellmann  <www.gotohellmann.com>  
+Animation by   S. Jansen    <www.asciimation.co.nz>  
+Font by        S. Weber     <https://blogfonts.com/picopixel.font>  
  
  This sketch is playing back an ASCII animation of 
  StarWars on a tiny 2.2" LCD Screen. 
-
- !!! This version needs a patched TFT_eSPI lib from my github !!!
 
  Platform: 
  Arduino on WEMOS D1 mini Module (4MB Flash)
