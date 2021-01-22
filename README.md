@@ -90,5 +90,5 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
             ...
 
 
-( This patched TFT_eSPI Lib is available on here: [TFT_eSPI_patched.zip](https://github.com/gotohellmann/AsciiWars/blob/main/TFT_eSPI_patched.zip) )
+    - ( This patched TFT_eSPI Lib is available on my github aswell: [TFT_eSPI_patched.zip](https://github.com/gotohellmann/AsciiWars/blob/main/TFT_eSPI_patched.zip) )
             
