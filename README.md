@@ -3,7 +3,7 @@ Simple Star Wars Asciimation Player for the ESP8266 + TFT Display
 
 Code by        F. Hellmann  <www.gotohellmann.com>  
 Animation by   S. Jansen    <www.asciimation.co.nz>  
-Font by        S. Weber     <blogfonts.com/picopixel.font>  
+Font by        S. Weber     <www.blogfonts.com/picopixel.font>  
  
  This sketch is playing back an ASCII animation of 
  Star Wars on a tiny 2.2" LCD Screen. 
