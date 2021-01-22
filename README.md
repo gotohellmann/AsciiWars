@@ -14,7 +14,7 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
  ### Versions:
  
  - _AsciiWars_v04_  works with the standard TFT_eSPI library, but flickers a bit
- - _AsciiWars_v04_patched_  needs a patched TFT_eSPI library to reduce flicker, see ![below](https://github.com/gotohellmann/AsciiWars#connections)
+ - _AsciiWars_v04_patched_  needs a patched TFT_eSPI library to reduce flicker, see ![below](#flickering)
  - Start Arduino IDE
  
  ### Platform & Hardware needed:
@@ -27,7 +27,7 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
  ### Usage:     
  
  - Connect LCD to Wemos D1 mini
-   -> see connection infos in asciiwars.ino file or ![below](https://github.com/gotohellmann/AsciiWars#connections)
+   -> see connection infos in asciiwars.ino file or ![below](#flickering)
  - Start Arduino IDE
  - check you have the ESP8266FS tool under Tools
   -> if not: https://github.com/esp8266/arduino-esp8266fs-plugin
@@ -65,7 +65,7 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
  +3V3 VCC  |  LED
  D6        |  SDO (MISO)
 
- ### Performance / Flickering:
+ ### Flickering:
  
  Unfortunatly, clearing/redrawing the screen takes up a lot of time and can lead to visible flicker.
  To reduce this effect we can apply a patch that only clears the next character to be drawn just in time.
