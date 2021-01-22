@@ -63,5 +63,5 @@ Font by        S. Weber     <www.blogfonts.com/picopixel.font>
             ...
 
   - A patched TFT_eSPI Lib is available on my github: 
-  https://github.com/gotohellmann/AsciiWars/TFT_eSPI_patched.zip
+  https://github.com/gotohellmann/AsciiWars/blob/main/TFT_eSPI_patched.zip
               
