@@ -24,7 +24,7 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
  **Usage:**     
  
  - Connect LCD to Wemos D1 mini
-   -> see connection infos in asciiwars...ino file
+   -> see connection infos in asciiwars.ino file or below
  - Start Arduino IDE
  - check you have the ESP8266FS tool under Tools
   -> if not: https://github.com/esp8266/arduino-esp8266fs-plugin
@@ -44,7 +44,23 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
  - Upload Data with Tools -> ESP8266FS tool
  - Upload Sketch _without_ SPIFFS Formatting Block
       
- -> Have fun.
+ **-> Have fun.**
+ 
+ **Connections:**
+ 
+ Wemos D1 Mini to the ILI9341 LCD:
+
+ Wemos D1  |  LCD
+-----------|------------
+ +3V3 VCC  |  VCC
+ GND       |  GND
+ D8        |  CS
+ +3V3 VCC  |  RST
+ D3        |  DC / RS
+ D7        |  SDI (MOSI)
+ D5        |  SCK 
+ +3V3 VCC  |  LED
+ D6        |  SDO (MISO)
 
  **Performance / Flickering:**
  
