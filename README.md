@@ -1,8 +1,6 @@
 # AsciiWars
 Simple Star Wars Asciimation Player for the ESP8266 + TFT Display
 
-                    AsciiWars
-
  code by        F. Hellmann  <www.gotohellmann.com>
  animation by   S. Jansen    <www.asciimation.co.nz>
  font by        S. Weber     <https://blogfonts.com/picopixel.font>
@@ -12,36 +10,39 @@ Simple Star Wars Asciimation Player for the ESP8266 + TFT Display
 
  !!! This version needs a patched TFT_eSPI lib from my github !!!
 
- Platform: Arduino on WEMOS D1 mini Module (4MB Flash)
-           ILI9341 240x320 Pixel RGB LCD Display
-
-
- Usage:     - Connect LCD to Wemos D1 mini
-              -> see connection infos in .ino file
-            - Start Arduino IDE
-            - check you have the ESP8266FS tool under Tools
-              -> if not: https://github.com/esp8266/arduino-esp8266fs-plugin
-              
-            - check that you have the necessary libs installed:
-                - TFT_eSPI
-                  Dont forget to edit Library User_Settings.h
+ Platform: 
+ Arduino on WEMOS D1 mini Module (4MB Flash)
+ with an ILI9341 240x320 Pixel RGB TFT LCD Display
+ 
+ 
+ Usage:     
+ 
+ - Connect LCD to Wemos D1 mini
+   -> see connection infos in .ino file
+ - Start Arduino IDE
+ - check you have the ESP8266FS tool under Tools
+  -> if not: https://github.com/esp8266/arduino-esp8266fs-plugin
+    
+ - check that you have the necessary libs installed:
+   - TFT_eSPI
+      -> Don't forget to edit Library User_Settings.h
                  
-            - Uncomment SPIFFS Formatting Block below
-            - Arduino Board Select: Wemos D1 mini
-            - Change to Flash Size: 4M (3M SPIFFS)
-            - Open Serial Monitor and then Upload Sketch
-            - Check for SPIFFS formatting progress
-            - Comment out the SPIFFS Formatting Block
-            
-            - Close Serial Monitor 
-            - Upload Data with Tools -> ESP8266FS tool
-            - Upload Sketch _without_ SPIFFS Formatting Block
-            
-            -> Have fun.
+ - Uncomment SPIFFS Formatting Block below
+ - Arduino Board Select: Wemos D1 mini
+ - Change to Flash Size: 4M (3M SPIFFS)
+ - Open Serial Monitor and then Upload Sketch
+ - Check for SPIFFS formatting progress
+ - Comment out the SPIFFS Formatting Block
+ 
+ - Close Serial Monitor 
+ - Upload Data with Tools -> ESP8266FS tool
+ - Upload Sketch _without_ SPIFFS Formatting Block
+      
+ -> Have fun.
 
  Performance:
 
-            - To reduce flicker patch TFT_eSPI Library (Line 2780):
+ - To reduce flicker patch TFT_eSPI Library (Line 2780):
             
             ...   if(size > 1) {
                     xo16 = xo;
@@ -59,6 +60,6 @@ Simple Star Wars Asciimation Player for the ESP8266 + TFT Display
                     for(xx=0; xx<w; xx++) {
             ...
 
-            - A patched TFT_eSPI Lib is available on my github: 
-              https://github.com/gotohellmann/AsciiWars
+  - A patched TFT_eSPI Lib is available on my github: 
+  https://github.com/gotohellmann/AsciiWars
               
