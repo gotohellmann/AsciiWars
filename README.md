@@ -11,15 +11,17 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
  This sketch is playing back Simon Jansen's brilliant ASCII animation of 
  Star Wars on a tiny 2.2" LCD Screen. 
 
- **Versions:
+ **Versions:**
+ 
  - _AsciiWars_v04_  works with the standard TFT_eSPI library, but flickers a bit
  - _AsciiWars_v04_patched_  needs a patched TFT_eSPI library to reduce flicker, see below
  
- **Platform: 
- -  Arduino on **WEMOS D1 mini** Module (4MB Flash)
+ **Platform:**
+ 
+ - Arduino on **WEMOS D1 mini** Module (4MB Flash)
  - with an **ILI9341** 240x320 Pixel RGB TFT LCD Display
  
- **Usage:     
+ **Usage:**     
  
  - Connect LCD to Wemos D1 mini
    -> see connection infos in asciiwars...ino file
@@ -44,9 +46,12 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
       
  -> Have fun.
 
- **Performance / Flickering:
+ **Performance / Flickering:**
+ 
+ Unfortunatly, clearing/redrawing the screen takes up a lot of time and can lead to visible flicker.
+ To reduce this effect we can apply a patch that only clears the next character to be drawn just in time.
 
- - To reduce flicker patch TFT_eSPI Library (Line 2780):
+ - To reduce flicker -> patch TFT_eSPI Library (Line 2780):
             
             ...   if(size > 1) {
                     xo16 = xo;
