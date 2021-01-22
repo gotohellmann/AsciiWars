@@ -6,7 +6,7 @@ Animation by   S. Jansen    <www.asciimation.co.nz>
 Font by        S. Weber     <https://blogfonts.com/picopixel.font>  
  
  This sketch is playing back an ASCII animation of 
- StarWars on a tiny 2.2" LCD Screen. 
+ Star Wars on a tiny 2.2" LCD Screen. 
 
  Platform: 
  Arduino on WEMOS D1 mini Module (4MB Flash)
