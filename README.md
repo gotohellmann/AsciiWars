@@ -19,7 +19,7 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
  
  ### Platform & Hardware needed:
  
- - This project needs the Arduino IDE
+ - This project needs the ![Arduino IDE 1.8.10+](https://www.arduino.cc/en/software)
  - a **WEMOS D1 mini** Module (4MB Flash)
  - an **ILI9341** 240x320 Pixel RGB TFT LCD Display
  - and a few wires to connect everything up
