@@ -27,7 +27,7 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
  ### Usage:     
  
  - Connect LCD to Wemos D1 mini
-   -> see connection infos in asciiwars.ino file or ![below](https://github.com/gotohellmann/AsciiWars/blob/main/README.md#connections)
+   -> see connection infos in asciiwars.ino file or ![below](README.md#connections)
  - Start Arduino IDE
  - check you have the ESP8266FS tool under Tools
   -> if not: https://github.com/esp8266/arduino-esp8266fs-plugin
@@ -45,7 +45,7 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
  
  - Close Serial Monitor 
  - Upload Data with Tools -> ESP8266FS tool
- - Upload Sketch _without_ active SPIFFS Formatting Block ;)
+ - Upload Sketch _without_ active SPIFFS Formatting Block :smirk:
       
  **-> Have fun.**
  
