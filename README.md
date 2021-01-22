@@ -44,7 +44,7 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
  
  - Close Serial Monitor 
  - Upload Data with Tools -> ESP8266FS tool
- - Upload Sketch _without_ SPIFFS Formatting Block
+ - Upload Sketch _without_ active SPIFFS Formatting Block ;)
       
  **-> Have fun.**
  
