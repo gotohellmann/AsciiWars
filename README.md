@@ -37,12 +37,12 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
    - TFT_eSPI
       -> Don't forget to edit Library User_Settings.h to enable the ILI9341 display
                  
- - Uncomment SPIFFS Formatting Block below
+ - Uncomment SPIFFS Formatting Block in the Sketch
  - Arduino Board Select: Wemos D1 mini
  - Change to Flash Size: 4M (3M SPIFFS)
  - Open Serial Monitor and then Upload Sketch
  - Check for SPIFFS formatting progress
- - Comment out the SPIFFS Formatting Block
+ - Comment out the SPIFFS Formatting Block in the Sketch
  
  - Close Serial Monitor 
  - Upload Data with Tools -> ESP8266FS tool
