@@ -10,6 +10,8 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
  
  This sketch is playing back Simon Jansen's brilliant ASCII animation of 
  Star Wars on a tiny 2.2" LCD Screen. 
+ 
+ If you like it please leave a :star: !
 
  ### Versions:
  
