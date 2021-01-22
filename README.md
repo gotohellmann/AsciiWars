@@ -3,7 +3,7 @@
 **Simple Star Wars Asciimation Player for the ESP8266 + TFT Display**
 
 ![Breadboard](https://github.com/gotohellmann/AsciiWars/blob/main/images/image1.jpg) 
-<img src="https://github.com/gotohellmann/AsciiWars/blob/main/images/animation.gif" height="50%" width="50%">
+<img src="https://github.com/gotohellmann/AsciiWars/blob/main/images/animation.gif" width="400">
 ![Projector](https://github.com/gotohellmann/AsciiWars/blob/main/images/image2.jpg) 
 
 Code by        **F. Hellmann**  <www.gotohellmann.com>  
