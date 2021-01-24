@@ -34,7 +34,7 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
    -> see connection infos in asciiwars.ino file or [below](#connections)
  - Start Arduino IDE
  - check you have the ESP8266FS tool under Tools
-  -> if not install it: [ESP8266FS Plugin](https://github.com/esp8266/arduino-esp8266fs-plugin)
+  -> if not install it: [ESP8266FS Plugin](https://github.com/esp8266/arduino-esp8266fs-plugin/releases/download/0.5.0/ESP8266FS-0.5.0.zip)
     
  - check that you have the necessary libs installed:
    - TFT_eSPI
