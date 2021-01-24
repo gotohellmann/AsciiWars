@@ -33,7 +33,8 @@ Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>
  - Connect LCD to Wemos D1 mini
    -> see connection infos in asciiwars.ino file or [below](#connections)
  - Start Arduino IDE
- - Check you have the ESP8266 Support installed [ESP8266_Arduino](https://github.com/esp8266/Arduino)
+ - Check you have the ESP8266 boards support installed under Tools 
+  -> if not install it: [ESP8266_Arduino](https://github.com/esp8266/Arduino)
  - check you have the ESP8266FS tool under Tools
   -> if not install it: [ESP8266FS Plugin](https://github.com/esp8266/arduino-esp8266fs-plugin/releases/download/0.5.0/ESP8266FS-0.5.0.zip)
     
