@@ -7,6 +7,8 @@
 Code by        **F. Hellmann**  <www.gotohellmann.com>  
 Animation by   **S. Jansen**    <www.asciimation.co.nz>  
 Font by        **S. Weber**     <www.blogfonts.com/picopixel.font>  
+
+Youtube Build Video: https://youtu.be/Gn7KlUrOuFw
  
  This sketch is playing back Simon Jansen's brilliant ASCII animation of Star Wars on a tiny 2.2" LCD Screen. 
  
